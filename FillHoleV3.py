@@ -6,9 +6,9 @@ import bmesh
 context = bpy.context
 scene = context.scene
 
-objectToSelect = bpy.data.objects["Cube"]
-objectToSelect.select_set(True)    
-bpy.context.view_layer.objects.active = objectToSelect
+#active l'objet dans la scene
+objectToSelect = bpy.context.active_object
+objectToSelect.select_set(True) 
 
 # cree le bmesh 
 bm = bmesh.new()
