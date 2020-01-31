@@ -16,11 +16,3 @@ rot_x = rot_z = ((math.pi)/2)
 # effectue sur l'objet la location et rotation
 objet.location = (loc_x, loc_y, loc_z)
 objet.rotation_euler = (rot_x, rot_y, rot_z)
-# sauvegarde fichier .ply
-fileName=bpy.data.filepath
-fileName=os.path.splitext(fileName)[0]
-indexOf_=fileName.rfind('_')
-if(indexOf_!=-1 and fileName[indexOf_]+fileName[indexOf_+1]=="_r"):
-    fileName=fileName.split("_rr")[0]
-    fileName='{}{}{}{}'.format(fileName, "_r",str(i+2),".ply")
-    bpy.ops.wm.save_as_mainfile(filepath=fileName)
