@@ -1,1 +1,0 @@
-blender.exe "C:\Users\jacky\Desktop\Mihally Project\Mihaly-master\Figures Tests\test.blend" -b -P "C:\Users\jacky\Desktop\'Mihally Project'\Mihaly-master\Reorientation.py" -o //frame_ -f 0
