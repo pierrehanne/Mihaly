@@ -1,16 +1,15 @@
 # Mihaly Cap Projet
 Création de différent module pour automatiser des tâches facilitant le travail de notre client. </br>
-Anyi CHEN </br>
-Thomas DOGNON </br>
-Pierre HANNE </br>
-Jacky HOANG </br>
-Jonathan NICOLAÏ </br>
+Les auteurs de se projet sont :
+- Anyi CHEN </br>
+- Thomas DOGNON </br>
+- Pierre HANNE </br>
+- Jacky HOANG </br>
+- Jonathan NICOLAÏ </br>
 ### Pré-requis
 - Installer Blender </br>
 - Installer Python </br>
 ### Modules
-1. Module de réorientation
-2. Module de réparation
 > #### Module de réorientation
 Ce module a pour but de réorienter un modèle 3D sur le plan XY et le recentrer en 0,0. </br>
 Il est fréquent que les modèles générés par différents systèmes de scan ne prennent pas soin de réorienter ni recentrer le modèle mais l’expriment dans leur repère caméra. </br>
