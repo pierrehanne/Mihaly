@@ -9,6 +9,7 @@ Les auteurs de se projet sont :
 ### Pré-requis
 - Installer Blender </br>
 - Installer Python </br>
+- Créer un répertoire 'Mihaly_export' à la racine :: 'C:\Mihaly_export' car tout les obj exporté en .PLY seront contenu dans ce dossier
 ### Modules
 > #### Module de réorientation
 Ce module a pour but de réorienter un modèle 3D sur le plan XY et le recentrer en 0,0. </br>
