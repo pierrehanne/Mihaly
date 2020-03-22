@@ -28,3 +28,10 @@ for o in context.selected_objects:
     o.data.update()
     bm.clear()
 bm.free()
+
+#Exporation au format .PLY
+print("Exportation...") #VISIBLE DANS LE TERMINAL
+
+bpy.ops.export_mesh.ply(filepath=r"C:\Mihaly_export\Fixed.ply", check_existing=True, axis_forward='Y', axis_up='Z', filter_glob="*.ply")
+
+print("Exportation reussie !")

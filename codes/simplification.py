@@ -36,3 +36,10 @@ for i in range(0, numberOfIteration):
     fileName = '{}{}{}{}'.format(fileName, "_d", str(i+2), ".blend")
 
     bpy.ops.wm.save_as_mainfile(filepath=fileName)
+
+#Exporation au format .PLY
+print("Exportation...") #VISIBLE DANS LE TERMINAL
+
+bpy.ops.export_mesh.ply(filepath=r"C:\Mihaly_export\Simplified.ply", check_existing=True, axis_forward='Y', axis_up='Z', filter_glob="*.ply")
+
+print("Exportation reussie !")
